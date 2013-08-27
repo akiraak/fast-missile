@@ -1,0 +1,13 @@
+rm fast_01
+rm fast_02
+rm fast_03
+rm fast_04
+rm fast_05
+rm fast_06
+
+g++ -O2 -o fast_01 fast_01.cpp
+g++ -O2 -o fast_02 fast_02.cpp
+g++ -O2 -o fast_03 fast_03.cpp
+g++ -O2 -o fast_04 fast_04.cpp
+g++ -O2 -o fast_05 fast_05.cpp
+g++ -O2 -o fast_06 fast_06.cpp
