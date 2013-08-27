@@ -22,11 +22,9 @@ namespace myrand {
 
   int rand(){
     now_index++;
-    /*
     if(now_index > BUFFER_SIZE - 1){
       now_index = 0;
     }
-    */
     return rand_table[now_index];
   }
 }
